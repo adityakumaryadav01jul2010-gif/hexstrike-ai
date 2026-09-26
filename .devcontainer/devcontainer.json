@@ -1,0 +1,12 @@
+{
+  "name": "HexStrike AI",
+  "postStartCommand": "bash .devcontainer/start-hexstrike.sh",
+  "forwardPorts": [8888],
+  "portsAttributes": {
+    "8888": {
+      "label": "HexStrike AI",
+      "protocol": "http",
+      "onAutoForward": "notify"
+    }
+  }
+}
